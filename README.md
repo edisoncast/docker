@@ -21,3 +21,7 @@ para listarlo es docker network ls
 para ponerlo en la red 
 
 docker network connect red contenedor
+
+para correr un nultiambiente lo realizamos con
+
+docker build -t platziapp -f build/development.Dockerfile .
